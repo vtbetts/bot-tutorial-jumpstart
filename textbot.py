@@ -28,7 +28,7 @@ filename.close()
 for line in tweet_text[0:5]: # Will only write first 5 lines
     api.update_status(status=line)
     print(line)
-    time.sleep(15) # Sleep for 15 seconds
+    time.sleep(5) # Sleep for 15 seconds
 
 print("All done!")
 
